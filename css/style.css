@@ -1,0 +1,33 @@
+body{
+  position: relative;
+  width: 1280px;
+  height: 2824px;
+  background: linear-gradient(180deg, #59064A 0%, #128BB6 100%);
+  margin: 0 auto;
+}
+.background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.plane{
+  display: block;
+  width: 1130px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.plane img{
+  position: fixed;
+  width: 1130px;
+  height: 700px;
+  margin: 0 auto;
+}
+.plashka{
+  background: linear-gradient(180deg, rgba(18, 139, 182, 0) 0%, #2FA9D5 49.48%, #FFFFFF 100%);
+  position: absolute;
+  width: 1280px;
+  height: 800px;
+  left: 0px;
+  top: 2024px;
+}
