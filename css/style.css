@@ -13,15 +13,101 @@ body{
 }
 .map img{
   position: absolute;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
 }
-.setka7{
-  height: 400px;
-  width: 350;
-  opacity: 1;
+.map.setka1{
+  position: absolute;
+  width: 136px;
+  height: 207px;
+  left: 450px;
+  top: 1143px;
 }
-.setka7:hover{
+.setka1 img{
+  width: 136px;
+  height: 207px;
+  left: 450px;
+  top: 1143px;
+}
+.map.setka2{
+  position: absolute;
+  width: 80px;
+  height: 104px;
+  left: 670px;
+  top: 1274px;
+}
+.setka2 img{
+  width: 80px;
+  height: 104px;
+  left: 670px;
+  top: 1274px;
+}
+.map.setka3{
+  position: absolute;
+  width: 80px;
+  height: 72px;
+  left: 670px;
+  top: 1410px;
+}
+.setka3 img{
+  width: 80px;
+  height: 72px;
+  left: 670px;
+  top: 1410px;
+}
+.map.setka4{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 0px;
+  top: 1250px;
+}
+.setka4 img{
+  width: 300px;
+  height: 300px;
+  left: 0px;
+  top: 1250px;
+}
+.map.setka5{
+  position: absolute;
+  width: 154px;
+  height: 300px;
+  left: 1021px;
+  top: 1000px;
+}
+.setka5 img{
+  width: 154px;
+  height: 300px;
+  left: 1021px;
+  top: 1000px;
+}
+.map.setka6{
+  position: absolute;
+  width: 177px;
+  height: 150px;
+  left: 750px;
+  top: 1600px;
+}
+.setka6 img{
+  width: 177px;
+  height: 150px;
+  left: 750px;
+  top: 1600px;
+}
+.map.setka7{
+  position: absolute;
+  left: 927px;
+  top: 1500px;
+  height: 400px;
+  width: 354;
+}
+.setka7 img{
+  left: 927px;
+  top: 1500px;
+  height: 400px;
+  width: 354;
+}
+.setka1:hover,.setka2:hover,.setka3:hover,.setka4:hover,.setka5:hover,.setka6:hover, .setka7:hover{
   opacity: 0;
   transition: all .1s ease-out;
 }
