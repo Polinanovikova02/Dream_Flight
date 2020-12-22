@@ -16,6 +16,7 @@ body{
   /* width: 100%; */
   height: 100%;
 }
+
 .map.setka1{
   position: absolute;
   width: 136px;
@@ -111,6 +112,7 @@ body{
   opacity: 0;
   transition: all .1s ease-out;
 }
+
 .circle1, .circle2, .circle3, .circle4, .circle5, .circle6{
   background: #FFB635;
   width: 30px;
@@ -128,7 +130,12 @@ body{
 .circle5{left: 980px; top: 1505px;}
 .circle6{left: 1092px; top: 2012px;}
 
-.plane{
+.plane1{
+  position: absolute;
+  width: 80px;
+  height: 72px;
+}
+/* .plane{
   display: block;
   width: 1130px;
   height: 700px;
@@ -139,7 +146,7 @@ body{
   width: 1130px;
   height: 700px;
   margin-top: 50px;
-}
+} */
 .plashka{
   background: linear-gradient(180deg, rgba(18, 139, 182, 0) 0%, #2FA9D5 39.58%, #FFFFFF 100%);
   position: absolute;
