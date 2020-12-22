@@ -132,8 +132,25 @@ body{
 
 .plane1{
   position: absolute;
-  width: 80px;
-  height: 72px;
+  width: 221.84px;
+  height: 166.57px;
+  top: 1160px;
+  animation: plane1 9s infinite;
+}
+@keyframes plane1 {
+  0%{left: -300px}
+  100%{left: 1680px;}
+}
+.plane2{
+  position: absolute;
+  width: 221.84px;
+  height: 166.57px;
+  top: 1160px;
+  animation: plane2 9s infinite;
+}
+@keyframes plane2 {
+  0%{left: -300px}
+  100%{left: 1680px;}
 }
 /* .plane{
   display: block;
