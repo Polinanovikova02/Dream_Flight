@@ -132,14 +132,14 @@ body{
 
 .plane1{
   position: absolute;
-  width: 221.84px;
-  height: 166.57px;
-  top: 1160px;
-  animation: plane1 9s infinite;
+  width: 232.04px;
+  height: 120.04px;
+  top: 2831px;
+  animation: plane1 14s infinite;
 }
 @keyframes plane1 {
-  0%{left: -300px}
-  100%{left: 1680px;}
+  0%{left: 1300px; top: 2696px;}
+  100%{left: 0; top: -2446px;}
 }
 .plane2{
   position: absolute;
@@ -149,8 +149,41 @@ body{
   animation: plane2 9s infinite;
 }
 @keyframes plane2 {
-  0%{left: -300px}
+  0%{left: -300px;}
   100%{left: 1680px;}
+}
+.plane3{
+  position: absolute;
+  width: 192.09px;
+  height: 154.09px;
+  top: 2199px;
+  animation: plane3 14s infinite;
+}
+@keyframes plane3 {
+  0%{left: -300px; top: 2199px;}
+  100%{left: 1680; top: -2199px;}
+}
+.plane4{
+  position: absolute;
+  width: 126px;
+  height: 158.44px;
+  top: 1799px;
+  animation: plane4 9s infinite;
+}
+@keyframes plane4 {
+  0%{left: 1680px; top: 1799px;}
+  100%{left: -300px; top: 1526px;}
+}
+.plane5{
+  position: absolute;
+  width: 227.32px;
+  height: 142.32px;
+  top: 2121px;
+  animation: plane5 9s infinite;
+}
+@keyframes plane5 {
+  0%{left: -300px; top: 2121px;}
+  100%{left: 1680px; top: 1536px;}
 }
 /* .plane{
   display: block;
