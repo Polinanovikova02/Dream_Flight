@@ -5,29 +5,58 @@ body{
   background: linear-gradient(180deg, #59064A 0%, #128BB6 100%);
   margin: 0 auto;
 }
-.background{
+.map{
+  position: relative;
+  margin: 0 auto;
+  width: 1280px;
+  height: 2824px;
+}
+.map img{
   position: absolute;
   width: 100%;
   height: 100%;
 }
+.map .setka{
+  opacity: 1;
+  transition: 1s;
+}
+.map:hover .setka{
+  opacity: 0;
+}
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6{
+  background: #FFB635;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+.circle1:hover, .circle2:hover, .circle3:hover, .circle4:hover, .circle5:hover, .circle6:hover{
+
+}
+.circle1{left: 315px; top: 1143px;}
+.circle2{left: 950px; top: 1047px;}
+.circle3{left: 586px; top: 1326px;}
+.circle4{left: 556px; top: 1718px;}
+.circle5{left: 980px; top: 1505px;}
+.circle6{left: 1092px; top: 2012px;}
+
 .plane{
   display: block;
   width: 1130px;
   height: 700px;
   margin: 0 auto;
-  margin-top: 50px;
 }
 .plane img{
   position: fixed;
   width: 1130px;
   height: 700px;
-  margin: 0 auto;
+  margin-top: 50px;
 }
 .plashka{
-  background: linear-gradient(180deg, rgba(18, 139, 182, 0) 0%, #2FA9D5 49.48%, #FFFFFF 100%);
+  background: linear-gradient(180deg, rgba(18, 139, 182, 0) 0%, #2FA9D5 39.58%, #FFFFFF 100%);
   position: absolute;
   width: 1280px;
-  height: 800px;
+  height: 850px;
   left: 0px;
-  top: 2024px;
+  bottom: 0;
 }
