@@ -192,11 +192,32 @@ body{
   height: 700px;
   margin: 0 auto;
 }
-.airplane img{
+.airplane{
   position: fixed;
-  width: 1130px;
-  height: 700px;
-  margin-top: 50px;
+  margin: 50px;
+}
+.vector_right{
+	height: auto;
+	width: 100px;
+	margin-left: 50px;
+	top: 50px;
+	bottom: 50px;
+}
+.plane{
+	width: 313px;
+	height: 313px;
+	left: 344px;
+}
+.plane img{
+	width: 313px;
+	height: 313px;
+}
+.vector_right{
+	height: auto;
+	width: 100px;
+	margin-right: 50px;
+	top: 50px;
+	bottom: 50px;
 }
 .plashka{
   background: linear-gradient(180deg, rgba(18, 139, 182, 0) 0%, #2FA9D5 39.58%, #FFFFFF 100%);
