@@ -152,7 +152,7 @@ body{
   0%{left: -300px;}
   100%{left: 1680px;}
 }
-.plane3{
+/* .plane3{
   position: absolute;
   width: 192.09px;
   height: 154.09px;
@@ -161,8 +161,8 @@ body{
 }
 @keyframes plane3 {
   0%{left: -300px; top: 2199px;}
-  100%{left: 1680; top: -2199px;}
-}
+  100%{left: 1300; top: -1949px;}
+} */
 .plane4{
   position: absolute;
   width: 126px;
@@ -185,18 +185,18 @@ body{
   0%{left: -300px; top: 2121px;}
   100%{left: 1680px; top: 1536px;}
 }
-/* .plane{
+.airplane{
   display: block;
   width: 1130px;
   height: 700px;
   margin: 0 auto;
 }
-.plane img{
+.airplane img{
   position: fixed;
   width: 1130px;
   height: 700px;
   margin-top: 50px;
-} */
+}
 .plashka{
   background: linear-gradient(180deg, rgba(18, 139, 182, 0) 0%, #2FA9D5 39.58%, #FFFFFF 100%);
   position: absolute;
