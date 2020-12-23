@@ -22,12 +22,14 @@ body{
   height: 207px;
   left: 450px;
   top: 1143px;
+  right: 0;
 }
 .setka1 img{
   width: 136px;
   height: 207px;
   left: 450px;
   top: 1143px;
+  right: 0;
 }
 .map.setka2{
   position: absolute;
@@ -203,4 +205,11 @@ body{
   height: 850px;
   left: 0px;
   bottom: 0;
+}
+.logo{
+	position: absolute;
+	width: 400px;
+	height: 279px;
+	left: 468px;
+	top: 2612px;
 }
