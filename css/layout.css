@@ -1,0 +1,190 @@
+body {
+    background-color: #59064A;
+}
+
+.main-container {
+    background-image: url("../img/background-gradient.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.map {
+    width: 100%;
+}
+
+.setka {
+    opacity: 1;
+    position: absolute;
+    transition: opacity 0.8s linear;
+}
+
+.setka1 {
+    right: 0%;
+    top: 53.3%;
+    width: 28%;
+    height: 13.6%;
+}
+.setka2 {
+    right: 27.6%;
+    top: 57.3%;
+    width: 12%;
+    height: 4.3%;
+}
+.setka3 {
+    right: 8%;
+    top: 35.6%;
+    width: 13.6%;
+    height: 10.6%;
+}
+.setka4 {
+    right: 77.1%;
+    top: 44.8%;
+    width: 24%;
+    height: 9.6%;
+}
+.setka5 {
+    right: 41.1%;
+    top: 49.9%;
+    width: 5.6%;
+    height: 2.5%;
+}
+.setka6 {
+    right: 42.4%;
+    top: 45.7%;
+    width: 5.6%;
+    height: 2.8%;
+}
+.setka7 {
+    right: 54.5%;
+    top: 40.5%;
+    width: 9.9%;
+    height: 7.1%;
+}
+
+.light {
+    position: absolute;
+    width: 2%;
+    height: 0.9%;
+    background-color: FFB635;
+    border-radius: 50%;
+    box-shadow: none;
+    transition: box-shadow 0.8s linear;
+}
+
+.light:hover {
+    box-shadow: 0 0 20px #feff00;
+    transition: opacity 0.2s linear;
+}
+
+.setka1:hover,
+.setka2:hover,
+.setka3:hover,
+.setka4:hover,
+.setka5:hover,
+.setka6:hover,
+.setka7:hover
+{
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.visor {
+    z-index: 2;
+    height: 100%;
+    padding: 3% 5% 3% 5%;
+    position: fixed;
+    box-sizing: border-box;
+}
+
+.visor2{
+    right: 0;
+}
+
+.plane {
+    z-index: 2;
+    position: fixed;
+    width: 30%;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+
+
+.gradient-bottom {
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    z-index: 4;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50vw - 10%);
+}
+
+.little-plane {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+}
+
+.little-plane img {
+    width: 100%;
+}
+
+.plane1{
+    animation: plane1 9s infinite linear;
+}
+
+@keyframes plane1 {
+  0% {top: 69%; left: 90%;}
+  100% {top: -10%; left: -10%;}
+}
+.plane2{
+  animation: plane2 9s infinite linear;
+}
+@keyframes plane2 {
+  0%{top: 10%; left: -20%;}
+  100%{top: 15%; left: 120%;}
+}
+.plane3{
+  animation: plane3 14s infinite linear;
+}
+@keyframes plane3 {
+  0%{top: 80%; left: -15%;}
+  100%{ top: 30%; left: 95%;}
+}
+.plane4{
+    
+  animation: plane4 9s infinite linear;
+}
+@keyframes plane4 {
+  0%{    top: 75%; left: 95%;}
+  100%{    top: 60%;left: -15%;}
+}
+.plane5{
+  animation: plane5 9s infinite linear;
+}
+@keyframes plane5 {
+  0%{top: 45%; left: -10%;}
+  100%{    top: 20%; left: 105%;}
+}
+
+
+
+
+@media all and (max-width: 1024px) {
+    .plane {
+        width: 40%;
+    }
+}
