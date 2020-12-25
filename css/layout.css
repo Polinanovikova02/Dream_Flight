@@ -164,14 +164,6 @@ body {
   0%{top: 80%; left: -15%;}
   100%{ top: 30%; left: 95%;}
 }
-.plane4{
-    
-  animation: plane4 9s infinite linear;
-}
-@keyframes plane4 {
-  0%{    top: 75%; left: 95%;}
-  100%{    top: 60%;left: -15%;}
-}
 .plane5{
   animation: plane5 9s infinite linear;
 }
